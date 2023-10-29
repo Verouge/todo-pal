@@ -1,4 +1,4 @@
-const boardServices = require("../../services/boardServices");
+const boardServices = require("../../services/boardService");
 
 const boardResolvers = {
   Query: {
