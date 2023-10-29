@@ -1,4 +1,4 @@
-const userService = require("../../Services/userService");
+const userService = require("../../services/userService");
 
 const userResolvers = {
   Query: {
