@@ -1,4 +1,4 @@
-const Board = require("./models/Board");
+const Board = require("../models/Board");
 
 const boardService = {
   getAll: function (userId) {

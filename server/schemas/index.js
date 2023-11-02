@@ -13,7 +13,7 @@ const cardResolvers = require("./resolvers/cardResolvers");
 const listResolvers = require("./resolvers/listResolvers");
 const userResolvers = require("./resolvers/userResolvers");
 
-const rootTypeDefs = gql`
+const rootTypeDefs = `
   type Query {
     _empty: String
   }

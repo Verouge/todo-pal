@@ -1,6 +1,4 @@
-const { gql } = require("@apollo/server");
-
-const listTypes = gql`
+const listTypes = `
   type List {
     id: ID!
     title: String!

@@ -2,7 +2,7 @@ const dotenv = require("dotenv");
 const { ApolloServer } = require("@apollo/server");
 const mongoose = require("mongoose");
 const { typeDefs, resolvers } = require("./schemas");
-const { verifyToken } = require("./utils/auth"); // Adjust the path as needed
+const { verifyToken } = require("./util/auth");
 
 dotenv.config();
 

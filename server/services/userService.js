@@ -1,4 +1,4 @@
-const bcrypt = require("bcryptjs");
+const bcrypt = require("bcrypt");
 const userModel = require("../models/User");
 const auth = require("../util/auth");
 const { createRandomHexColor } = require("../util/helperMethods");

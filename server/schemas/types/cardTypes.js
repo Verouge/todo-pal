@@ -1,6 +1,4 @@
-const { gql } = require("@apollo/server");
-
-const cardTypes = gql`
+const cardTypes = `
   type Card {
     id: ID!
     title: String!
@@ -87,20 +85,17 @@ const cardTypes = gql`
     createCard(input: CreateCardInput!): Card
     updateCard(cardId: ID!, input: UpdateCardInput!): Card
     deleteCard(cardId: ID!): DeletePayload
-    // Add more mutations for card-related operations as necessary
   }
 
   input CreateCardInput {
     title: String!
     listId: ID!
     description: String
-    // Include other fields as necessary
   }
 
   input UpdateCardInput {
     title: String
     description: String
-    // Include other fields that can be updated as necessary
   }
 
   type DeletePayload {

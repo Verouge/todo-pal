@@ -1,6 +1,6 @@
-const cardModel = require("../../models/Card");
-const listModel = require("../../models/List");
-const boardModel = require("../../models/Board");
+const cardModel = require("../models/Card");
+const listModel = require("../models/List");
+const boardModel = require("../models/Board");
 
 // Validates if the user is authorized to interact with the card
 const validateCardOwners = async (cardId = null, listId, boardId, userId) => {

@@ -1,6 +1,4 @@
-const { gql } = require("@apollo/server");
-
-const boardTypes = gql`
+const boardTypes = `
   type Board {
     id: ID!
     title: String!

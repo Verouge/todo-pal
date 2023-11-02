@@ -1,6 +1,6 @@
-const Card = require("../Models/Card");
-const List = require("../Models/List");
-const Board = require("../Models/Board");
+const Card = require("../models/Card");
+const List = require("../models/List");
+const Board = require("../models/Board");
 const mongoose = require("mongoose");
 
 const cardService = {
